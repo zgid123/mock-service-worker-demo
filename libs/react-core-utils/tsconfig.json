@@ -1,0 +1,22 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "target": "ESNext",
+    "lib": [
+      "DOM",
+      "DOM.Iterable",
+      "ESNext"
+    ],
+    "baseUrl": "src",
+    "jsx": "react",
+    "outDir": "lib",
+    "declaration": true
+  },
+  "include": [
+    "./src"
+  ],
+  "exclude": [
+    "./lib",
+    "./node_modules"
+  ]
+}

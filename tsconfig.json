@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "module": "esnext",
+    "sourceMap": false,
+    "moduleResolution": "node",
+    "experimentalDecorators": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "importHelpers": true,
+    "removeComments": true,
+    "noUncheckedIndexedAccess": true
+  },
+  "exclude": [
+    "**/node_modules/*",
+    "**/dist/*",
+    "scripts/*"
+  ]
+}

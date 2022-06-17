@@ -1,0 +1,15 @@
+{
+  "root": true,
+  "plugins": [
+    "react",
+    "react-hooks"
+  ],
+  "extends": [
+    "../../.eslintrc.json",
+    "react-app"
+  ],
+  "rules": {
+    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": "warn"
+  }
+}
