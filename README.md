@@ -9,13 +9,7 @@ pnpm install
 ```sh
 ├── libs
 └── workspaces
-    ├── backend
-    └── frontend
 ```
-
-- workspaces
-  - backend: contains all main servers
-  - frontend: contains all main apps
 
 # Useful commands
 
